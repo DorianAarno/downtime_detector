@@ -9,6 +9,12 @@ class Monitor(Cog):
     import main
     def __init__(self, bot: main.MyBot):
         self.bot = bot
+    
+    async def cog_slash_command_check(self, inter: ApplicationCommandInteraction):
+        if inter.author.guild_permissions.administrator:
+            return True
+
+        return await inter.send(embed=error(f'You need **administrator** permission to use this command.'))
 
     @slash_command()
     async def monitor(self, inter: ApplicationCommandInteraction, ):
