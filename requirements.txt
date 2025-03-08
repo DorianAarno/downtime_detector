@@ -1,0 +1,5 @@
+aiologger==0.7.0
+disnake==2.9.1
+python-dotenv
+aiomysql
+disnake-pagination
