@@ -4,6 +4,7 @@
   <br>
 </h1>
 <p align="center">A simple discord bot to notify you whenever another discord bot goes offline!</p>
+
 ## ❗ Features  
 * 🔐 All commands are admin only 
 * 🔍 Monitor any discord bot  
