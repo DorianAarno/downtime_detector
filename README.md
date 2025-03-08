@@ -4,10 +4,10 @@
   <br>
 </h1>
 <p align="center">A simple discord bot to notify you whenever another discord bot goes offline!</p>
-## ❗ Features 
-* 🔐 All commands are admin only
-* 🔍 Monitor any discord bot 
-* 🤖 Alerts in DMs or channels
+## ❗ Features  
+* 🔐 All commands are admin only 
+* 🔍 Monitor any discord bot  
+* 🤖 Alerts in DMs or channels 
 
 ## ❓ How to use it?
 0. First, you'll need to host a mysql database somewhere, [here's an helpful guide to host it on ubuntu linux](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
