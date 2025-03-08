@@ -13,8 +13,9 @@ class Monitor(Cog):
     async def cog_slash_command_check(self, inter: ApplicationCommandInteraction):
         if inter.author.guild_permissions.administrator:
             return True
-
-        return await inter.send(embed=error(f'You need **administrator** permission to use this command.'))
+        
+        await inter.send(embed=error(f'You need **administrator** permission to use this command.'))
+        return False
 
     @slash_command()
     async def monitor(self, inter: ApplicationCommandInteraction, ):
